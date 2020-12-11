@@ -8,14 +8,14 @@
 }
 
 #slide {
-  width: 150%;
+  width: 160%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   list-style: none;
 
 }
-
+.main_nav { z-index:10; }
 .slide_contents {
   color: var(--white-color);
   font-size: 24px;
