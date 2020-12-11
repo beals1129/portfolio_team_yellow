@@ -1,0 +1,47 @@
+#slide_wrap {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  height: 70vh;
+  overflow-x: scroll;
+  z-index: 7;
+}
+
+#slide {
+  width: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+
+}
+
+.slide_contents {
+  color: var(--white-color);
+  font-size: 24px;
+  font-family: "Noto Sans";
+  font-weight: 800;
+  margin-right: 150px;
+  z-index: 1;
+}
+
+.slide_contents img {
+  height: 250px;
+}
+
+.slide_text {
+  position: fixed;
+  top: 50%;
+  left: 4vw;
+  transform: translateY(-50%);
+
+
+}
+
+.slide_text h3 {
+  font-family: 'Noto Sans KR', serif;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1.3em;
+  z-index: -1;
+}
