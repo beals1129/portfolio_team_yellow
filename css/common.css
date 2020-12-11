@@ -56,12 +56,16 @@ body {
 /* ROOT */
 
 :root {
-  --main-color: #021d44;
+  --item-gap: 6px;
+  --bg-main: rgba(245, 208, 66, 0.95);
+  --bg-accent: rgba(245, 208, 66, 0.95);
+
+  --main-color: #f7f6f5;
   --sub-color: #003a84;
-  --accent-color: #ff3e55;
-  --white-color: #f7f6f5;
-  --point-color: rgb(0, 152, 255);
+  --accent-color: #FDD20E;
+  --white-color: #101820;
 }
+
 
 /* 공통 fixed 작업 */
 
