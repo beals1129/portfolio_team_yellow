@@ -26,7 +26,9 @@ body {
 #top h2{
     font-size: 72px; 
     font-weight: 600;
+    /* line-height: 100px; */
     color:var(--white-color);
+    font-family: 'Noto Sans KR', serif; 
 }
 .intro{
     margin: 20px auto;
@@ -37,7 +39,7 @@ body {
     height: auto;
     display:flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     /* top: 600px; */
     /* left: 300px; */
 }
@@ -51,11 +53,13 @@ body {
     font-size: 33.6px;
     line-height: 40px;
     color:var(--white-color);
+    font-family: 'Noto Sans KR', serif; 
 
 }
 .body{
     font-size: 24px;
     color:var(--white-color);
+    font-family: 'Noto Sans KR', serif; 
 }
 .s1 strong{
     color:var( --accent-color);
@@ -72,6 +76,7 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 24px;
+    font-family: 'Noto Sans KR', serif; 
     line-height: 40px;
     color: var(--white-color);
     /* top:1000px; */
